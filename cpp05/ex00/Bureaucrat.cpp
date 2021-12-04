@@ -56,8 +56,7 @@ int Bureaucrat::getGrade() const
     return(this->grade);
 }
 
-// узнать для чего здесь конст
-/* const */ std::string Bureaucrat::getName() const
+std::string Bureaucrat::getName() const
 {
     return (this->name);
 }
