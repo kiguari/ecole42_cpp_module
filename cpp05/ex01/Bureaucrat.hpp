@@ -43,7 +43,7 @@ public:
     void grade_minis_decriment();
     void grade_plus_inkriment();
     int getGrade() const;
-    /* const */ std::string getName() const;
+    std::string getName() const;
     // плюс метод по сабджекту который подписывает форму
     void signForm(Form &signeted);
     
