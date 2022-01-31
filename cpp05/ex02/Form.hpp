@@ -41,7 +41,7 @@ public:
     public:
         const char* what() const throw();
     };
-    // добавляем исключение на случай если грайд для экзекьюции выше чем грейд бюракрата
+    // добавляем исключение на случай если грейд для экзекьюции выше чем грейд бюракрата
     class FormStatusFale : public std::exception
     {
     public:
