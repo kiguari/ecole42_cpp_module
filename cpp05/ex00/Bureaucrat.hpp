@@ -52,7 +52,7 @@ public:
     
     // гетер и сетер
     int getGrade() const;
-    /* const */ std::string getName() const;
+    std::string getName() const;
     ~Bureaucrat();
 };
 
